@@ -1,0 +1,28 @@
+.bday {
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+}
+
+.bdayimg {
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    left: 20%;
+    text-align: center;
+}
+
+.bday1 {
+    flex: 50%;
+}
+
+.bday2 {
+    flex: 50%;
+}
