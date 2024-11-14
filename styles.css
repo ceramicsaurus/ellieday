@@ -16,7 +16,6 @@
     transform: translate(-50%, -50%);
     width: 40%;
     left: 20%;
-    text-align: center;
 }
 
 .bday1 {
@@ -25,4 +24,23 @@
 
 .bday2 {
     flex: 50%;
+}
+
+@media (max-width: 1000px) {
+    .bday {
+        display: block;
+    }
+
+    .bday1 {
+        flex: 100%;
+    }
+
+    .bday2 {
+        flex: 100%;
+    }
+
+    .bdayimg {
+        position: relative;
+    }
+    
 }
